@@ -1,9 +1,5 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/WilliamYu1993/ICSE/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+##Abstract
+Most recent studies on deep learning based speech enhance-ment  (SE)  focused  on  improving  denoising  performance.However, successful SE applications require striking a desir-able  balance  between  denoising  performance  and  computa-tional cost in real scenarios. In this study, we propose a novelparameter pruning (PP) technique, which removes redundantchannels in a neural network.  In addition, a parameter quan-tization (PQ) technique was applied to reduce the size of aneural  network  by  representing  weights  with  fewer  clustercentroids.  Because the techniques are derived based on dif-ferent concepts, the PP and PQ can be integrated to provideeven  more  compact  SE  models.   The  experimental  resultsshow  that  the  PP  and  PQ  techniques  produce  a  compactedSE  model  with  a  size  of  only  9.76%compared  to  that  ofthe original model, resulting in minor performance losses of1.17%(from 0.85 to 0.84) for STOI and 1.17%(from 2.55to 2.52) for PESQ. The promising results suggest that the PPand PQ techniques can be used in an SE system in deviceswith limited storage and computation resources.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
