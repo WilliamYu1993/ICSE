@@ -9,7 +9,7 @@ Most recent studies on deep learning based speech enhance-ment  (SE)  focused  o
 - Nvidia GTX-1080Ti
 
 ```markdown
-Syntax highlighted code block
+How to use the TIMIT_FCN_MSE.py
 
 # Header 1
 ## Header 2
