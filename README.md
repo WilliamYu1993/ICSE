@@ -4,9 +4,9 @@ Most recent studies on deep learning based speech enhance-ment  (SE)  focused  o
 
 ### Training/Testing environment setup
 
-python 2.7
-Keras 1.1
-Nvidia GTX-1080Ti
+- Python 2.7
+- Keras 1.1
+- Nvidia GTX-1080Ti
 
 ```markdown
 Syntax highlighted code block
