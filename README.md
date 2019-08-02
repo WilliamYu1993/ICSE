@@ -11,8 +11,11 @@ Most recent studies on deep learning based speech enhance-ment  (SE)  focused  o
 ```markdown
 How to use the TIMIT_FCN_MSE.py
 
-- Fill in the GPU that is being used (default = 0, for 1 GPU computation resource, -1 for no CPU computation resource)
+- Get python 2.7 environment
+- install Keras 1.1 (if you already have later version of Keras, please reinstall this version). 
+- Fill in the GPU that is being used (default = 0, for 1 GPU computation resource, -1 for no CPU computation resource).
 - Fill in the paths of the data expected to train/test with.
+- command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
 
 1. Numbered
 2. List
