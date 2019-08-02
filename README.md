@@ -11,12 +11,8 @@ Most recent studies on deep learning based speech enhance-ment  (SE)  focused  o
 ```markdown
 How to use the TIMIT_FCN_MSE.py
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
+- Fill in the GPU that is being used (default = 0, for 1 GPU computation resource, -1 for no CPU computation resource)
+- Fill in the paths of the data expected to train/test with.
 
 1. Numbered
 2. List
