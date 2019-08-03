@@ -37,9 +37,9 @@ The proposed PQ process be like:
 ### Experimental Results
 The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
 - PESQ
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/pesq.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP1632_pesq.png)
 - STOI
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/stoi.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP_1632_stoi.png)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
