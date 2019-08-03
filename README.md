@@ -23,14 +23,14 @@ How to use the TIMIT_FCN_MSE.py
 ```
 
 The proposed PP process be like:
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/Images/pruning_overall.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
 
 The proposed PQ process be like:
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/Images/process.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/process.png)
 
 ### Experimental Results
 The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
 - PESQ
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/Images/FP1632_pesq.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
 - STOI
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/Images/FP1632_stoi.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
