@@ -21,6 +21,10 @@ How to use the TIMIT_FCN_MSE.py
 - This baseline model follows the settings in Fu, et.al's research: 
   [Link](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
 ```
+Normally, the learning curve of this model will be like the following graph:
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Learning_curve_FCNN_TIMIT_MSE.png)
+
+
 
 The proposed PP process be like:
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
