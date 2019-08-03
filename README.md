@@ -38,3 +38,9 @@ The integration of these two approaches achieved 10 times model compression rati
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
 - STOI
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
