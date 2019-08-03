@@ -19,7 +19,7 @@ How to use the TIMIT_FCN_MSE.py
 - Fill in the paths of the data expected to train/test with.
 - Command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
 - This baseline model follows the settings in Fu, et.al's research: 
-  [Link](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
+  [URLs](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
 ```
 Normally, the learning curve of this model will be like the following graph:
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Learning_curve_FCNN_TIMIT_MSE.png)
@@ -38,6 +38,8 @@ The integration of these two approaches achieved 10 times model compression rati
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
 - STOI
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
+
+### Additional Experimental Results
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
