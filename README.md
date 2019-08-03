@@ -10,8 +10,8 @@ Most recent studies on deep learning based speech enhance-ment  (SE)  focused  o
 - Keras 1.1
 - Nvidia GTX-1080Ti
 
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP1632_pesq.pdf)
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP1632_stoi.pdf)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP1632_pesq.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/FP1632_stoi.png)
 
 ```markdown
 How to use the TIMIT_FCN_MSE.py
