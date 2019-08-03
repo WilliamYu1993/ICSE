@@ -28,6 +28,20 @@ How to use the TIMIT_FCN_MSE.py
 [Link](url) and ![Image](src)
 ```
 
+The proposed PP process be like:
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/pruning_overall.png)
+
+The proposed PQ process be like:
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/process.png)
+
+### Experimental Results
+The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
+- PESQ
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/pesq.png)
+- STOI
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/stoi.png)
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
