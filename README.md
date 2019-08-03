@@ -19,14 +19,7 @@ How to use the TIMIT_FCN_MSE.py
 - Fill in the paths of the data expected to train/test with.
 - command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
 - This baseline model follows the settings in Fu, et.al's research: 
-[Link](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+  [Link](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
 ```
 
 The proposed PP process be like:
