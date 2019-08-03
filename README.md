@@ -35,9 +35,9 @@ The proposed PQ process be like:
 ### Experimental Results
 The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
 - PESQ
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.pdf)
 - STOI
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.pdf)
 
 ### Additional Experimental Results
 
