@@ -14,10 +14,10 @@ Most recent studies on deep learning based speech enhance-ment (SE) focused on i
 How to use the TIMIT_FCN_MSE.py
 
 - Get python 2.7 environment
-- install Keras 1.1 (if you already have later version of Keras, please reinstall this version). 
+- Install Keras 1.1 (if you already have later version of Keras, please reinstall this version). 
 - Fill in the GPU that is being used (default = 0, for 1 GPU computation resource, -1 for no CPU computation resource).
 - Fill in the paths of the data expected to train/test with.
-- command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
+- Command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
 - This baseline model follows the settings in Fu, et.al's research: 
   [Link](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
 ```
