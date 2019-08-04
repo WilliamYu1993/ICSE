@@ -18,7 +18,7 @@ How to use the TIMIT_FCN_MSE.py
 - Fill in the GPU that is being used (default = 0, for 1 GPU computation resource, -1 for no CPU computation resource).
 - Fill in the paths of the data expected to train/test with.
 - Command: python TIMIT_FCN_MSE.py, you will get the model used in this work.
-- This baseline model follows the settings in Fu, et.al's [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement)
+- This baseline model follows the settings in Fu, et.al's [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement/)
 ```
 Normally, the learning curve of this model will be like the following graph:
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Learning_curve_FCNN_TIMIT_MSE.png)
