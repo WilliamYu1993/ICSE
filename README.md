@@ -25,7 +25,7 @@ Normally, the [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-e
 
 ### PP & PQ schematic
 
-The proposed PP process be like:
+We found high redundancies in the channels of the well trained FCN layers, which provides similar latent information of a input testing speech. Thus, we define a threshold for sparsity to prune these redundant channels, and the process is like the graph below: 
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
 
 The proposed PQ process be like:
