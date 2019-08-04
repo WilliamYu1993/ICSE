@@ -46,8 +46,11 @@ The integration of these two approaches achieved 10 times model compression rati
 
 ### Additional Experimental Results
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Data Set           | Method                | PESQ       | STOI      |
+| ------------------ |:---------------------:| ----------:|----------:|
+| CHiME-2            | Noisy                 |            |           |
+| CHiME-2            | FCN                   |            |           |
+| CHiME-2            | PP+PQ (8x compressed) |            |           |
+| MHINT              | Noisy                 |            |           |
+| MHINT              | FCN                   |            |           |
+| MHINT              | PP+PQ (10x compressed)|            |           |
