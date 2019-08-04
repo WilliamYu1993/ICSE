@@ -48,9 +48,9 @@ The integration of these two approaches achieved 10 times model compression rati
 
 | Data Set           | Method                | PESQ       | STOI      |
 | ------------------ |:---------------------:| ----------:|----------:|
-| CHiME-2            | Noisy                 |            |           |
-| CHiME-2            | FCN                   |            |           |
-| CHiME-2            | PP+PQ (8x compressed) |            |           |
-| MHINT              | Noisy                 |            |           |
-| MHINT              | FCN                   |            |           |
-| MHINT              | PP+PQ (10x compressed)|            |           |
+| CHiME-2            | Noisy                 | 1.95       |    0.60   |
+| CHiME-2            | FCN                   | 2.03       |    0.75   |
+| CHiME-2            | PP+PQ (8x compressed) | 2.01       |    0.74   |
+| MHINT              | Noisy                 | 1.54       |    0.81   |
+| MHINT              | FCN                   | 2.17       |    0.86   |
+| MHINT              | PP+PQ (10x compressed)| 2.08       |    0.84   |
