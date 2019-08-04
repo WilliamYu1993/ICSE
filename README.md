@@ -30,8 +30,10 @@ We found high redundancies in the channels of the well trained FCN layers, which
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
 as shown in (c.), we used a "soft pruning" technique which retrains the model at some specific number of pruning rate. This allows the channels adjuist its latent behavior better after pruning. 
 
+#### PQ
 
 
+#### Integration of PP & PQ
 The best setup of PP PQ combination which we proposes is shown in the graph below: 
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/process.png)
 
