@@ -2,6 +2,29 @@
 
 Most recent studies on deep learning based speech enhance-ment (SE) focused on improving denoising performance. However, successful SE applications require striking a desirable balance between denoising performance and computational cost in real scenarios. In this study, we propose a novelparameter pruning (PP) technique, which removes redundant channels in a neural network. In addition, a parameter quan-tization (PQ) technique was applied to reduce the size of aneural network by representing weights with fewer  clustercentroids. Because the techniques are derived based on dif-ferent concepts, the PP and PQ can be integrated to provideeven  more compact SE models. The experimental resultsshow that the PP and PQ techniques produce a compactedSE model with a size of only  9.76% compared to that of the original model, resulting in minor performance losses of 1.17% (from 0.85 to 0.84) for STOI and 1.17%(from 2.55to 2.52) for PESQ. The promising results suggest that the PPand PQ techniques can be used in an SE system in devices with limited storage and computation resources.
 
+## PP & PQ schematic
+
+### PP
+We found high redundancies in the channels of the well trained FCN layers, which provides similar latent information of a input testing speech. Thus, we define a threshold for sparsity to prune these redundant channels, and the process is like the graph below: 
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
+as shown in (c.), we used a "soft pruning" technique which retrains the model at some specific number of pruning rate. This allows the channels adjuist its latent behavior better after pruning. 
+
+### PQ
+
+
+### Integration of PP & PQ
+The best setup of PP PQ combination which we proposes is shown in the graph below: 
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/process.png)
+
+
+### Experimental Results
+The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
+- PESQ
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
+- STOI
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
+
+
 ### (A) Training/Testing environment setup
 
 - Conda 8.0
@@ -27,36 +50,10 @@ Normally, the [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-e
 
 The model we used in the following experiments can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Models).
 
-### Dataset 
+### (C)Dataset 
 In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1ojewtLskFCr5Q264EPByPUt11uYKC8mL?usp=sharing) as our training and testing corpus.
 
-### PP & PQ schematic
-
-#### PP
-We found high redundancies in the channels of the well trained FCN layers, which provides similar latent information of a input testing speech. Thus, we define a threshold for sparsity to prune these redundant channels, and the process is like the graph below: 
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/pruning_overall.png)
-as shown in (c.), we used a "soft pruning" technique which retrains the model at some specific number of pruning rate. This allows the channels adjuist its latent behavior better after pruning. 
-
-#### PQ
-
-
-#### Integration of PP & PQ
-The best setup of PP PQ combination which we proposes is shown in the graph below: 
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/process.png)
-
-### Evaluation Metrics
-We adopt PESQ and STOI to [evaluate](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation) the proposed ICSE. 
-
-
-
-### Experimental Results
-The integration of these two approaches achieved 10 times model compression ratio with minor performance drop, like:
-- PESQ
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_pesq.png)
-- STOI
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
-
-### Additional Experimental Results
+### (D)Additional Experimental Results
 
 | Data Set           | Method                | PESQ       | STOI      |
 | ------------------ |:---------------------:| ----------:|----------:|
@@ -66,3 +63,6 @@ The integration of these two approaches achieved 10 times model compression rati
 | MHINT              | Noisy                 | 1.54       |    0.81   |
 | MHINT              | FCN                   | 2.17       |    0.86   |
 | MHINT              | PP+PQ (10x compressed)| 2.08       |    0.84   |
+
+### (E)Evaluation Metrics
+We adopt PESQ and STOI to [evaluate](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation) the proposed ICSE. 
