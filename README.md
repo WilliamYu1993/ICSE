@@ -27,6 +27,8 @@ Normally, the [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-e
 
 The model we used in the following experiments can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Models).
 
+### In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1ojewtLskFCr5Q264EPByPUt11uYKC8mL?usp=sharing) as our training and testing corpus.
+
 ### PP & PQ schematic
 
 #### PP
