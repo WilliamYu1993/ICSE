@@ -66,4 +66,4 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 | MHINT              | PP+PQ (10x compressed)| 2.08       |    0.84   |
 
 ### (E)Evaluation Metrics
-We adopt PESQ and STOI to [evaluate](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation) the proposed ICSE. 
+We adopt PESQ and STOI to evaluate the proposed ICSE. The tools we used can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation) 
