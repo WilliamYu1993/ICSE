@@ -25,7 +25,7 @@ How to use the TIMIT_FCN_MSE.py
 Normally, the [FCN](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement/) learning curve of this model will be like the following graph:
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Learning_curve_FCNN_TIMIT_MSE.png)
 
-The model we used in the following experiments can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Models)
+The model we used in the following experiments can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Models).
 
 ### PP & PQ schematic
 
