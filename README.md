@@ -24,6 +24,7 @@ The integration of these two approaches achieved 10 times model compression rati
 - STOI
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/FP1632_stoi.png)
 
+## ICSE technical summary
 
 ### (A) Training/Testing environment setup
 
