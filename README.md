@@ -11,6 +11,9 @@ as shown in (c.), we used a "soft pruning" technique which retrains the model at
 
 ### PQ
 
+The PQ process, the making of code book is shown in the graph below:
+![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Kmeans.png)
+
 
 ### Integration of PP & PQ
 The best setup of PP PQ combination which we proposes is shown in the graph below: 
