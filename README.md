@@ -70,3 +70,7 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 
 ### (E)Evaluation Metrics
 We adopt PESQ and STOI to evaluate the proposed ICSE. The tools we used can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation). 
+
+### (F) Computational Cost
+The results show that the computation loads in terms of MACC is reduced from 505615 to 404492, and in terms of FLOPs is reduced from 0.6M FLOPs to 0.48M FLOPs per input size (arbitrary length of a speech utterance).
+
