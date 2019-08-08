@@ -59,7 +59,7 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 
 ### (D)Additional Experimental Results
 
-#### Denoising task on different datasets:
+#### - Denoising task on different datasets:
 | Data Set           | Method                | PESQ       | STOI      |
 | ------------------ |:---------------------:| ----------:|----------:|
 | CHiME-2            | Noisy                 | 1.95       |    0.60   |
@@ -69,7 +69,7 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 | MHINT              | FCN                   | 2.17       |    0.86   |
 | MHINT              | PP+PQ (10x compressed)| 2.08       |    0.84   |
 
-#### Denoising+Dereverberation joint training/testing:
+#### - Denoising+Dereverberation joint training/testing:
 ##### Denoising Test
 ![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Joint_denoising.png)
 ##### Dereverberation Test
