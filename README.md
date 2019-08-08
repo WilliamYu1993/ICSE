@@ -72,6 +72,6 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 We adopt PESQ and STOI to evaluate the proposed ICSE. The tools we used can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation). 
 
 ### (F) Computational Cost
-The results show that the computation loads in terms of simulated cycles is reduced from 23821318 to 19084879 (1.25 times)
+The results show that the computation loads in terms of simulated cycles is reduced from 23,821,318 to 19,084,879 (1.25 times)
 , and in terms of FLOPs is reduced from 0.6M FLOPs to 0.48M FLOPs per input size (arbitrary length of a speech utterance). The [Results](https://github.com/WilliamYu1993/ICSE/tree/master/model_cycles_simulation) are computed by [ARM software simualtion](https://github.com/ARM-software/SCALE-Sim).
 
