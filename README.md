@@ -70,10 +70,16 @@ In this paper, we used [TIMIT dataset](https://drive.google.com/drive/folders/1o
 | MHINT              | PP+PQ (10x compressed)| 2.08       |    0.84   |
 
 #### - Denoising+Dereverberation joint training/testing:
-##### Denoising Test
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Joint_denoising.png)
-##### Dereverberation Test
-![image](https://github.com/WilliamYu1993/ICSE/blob/master/images/Joint_dereverberation.png)
+##### Denoising & Dereverberation Test
+|                    | Denoising             |                        |
+| SNR level          | PES       | STOI      | PESQ       | STOI      |
+| ------------------ |:---------------------:| ----------:|----------:|
+| 18dB               | Noisy                 | 1.95       |    0.60   |
+| 12dB               | FCN                   | 2.03       |    0.75   |
+| 6dB                | PP+PQ (8x compressed) | 2.01       |    0.74   |
+| 0dB                | Noisy                 | 1.54       |    0.81   |
+| -6dB               | FCN                   | 2.17       |    0.86   |
+| AVERAGE            | PP+PQ (10x compressed)| 2.08       |    0.84   |
 
 ### (E)Evaluation Metrics
 We adopt PESQ and STOI to evaluate the proposed ICSE. The tools we used can be found [here](https://github.com/WilliamYu1993/ICSE/tree/master/Evaluation). 
