@@ -80,3 +80,12 @@ We adopt PESQ and STOI to evaluate the proposed ICSE. The tools we used can be f
 The results show that the computation loads in terms of simulated cycles is reduced from 23,821,318 to 19,084,879 (1.25 times)
 , and in terms of FLOPs is reduced from 0.6M FLOPs to 0.48M FLOPs per input size (arbitrary length of a speech utterance). The [Results](https://github.com/WilliamYu1993/ICSE/tree/master/model_cycles_simulation) are computed by [ARM software simualtion](https://github.com/ARM-software/SCALE-Sim).
 
+### (G) Q&A
+#### Q1: Explain Fig. 4 PESQ up, STOI down?
+A1:The inconsistent trends of PESQ and STOI have been reported in many speech enhancement studies [r1.1, r1.2, r1.3, r1.4, r1.5]. Based on our experience, we found that PESQ scores are more related to signal smoothness, and STOI are more related to speech structures' completeness. Since the PP technique is performed to reduce the redundant components in the FCN model, the enhanced speech become smoother, thus increasing the PESQ scores, while losing delicate speech structures, thus reducing the STOI scores. Due to the page limitation on the published paper, we provid discussions here.
+
+#### Q2: The sparsity thresholding (4) seems arbitrary without giving any motivation, justification or reference. Please provide at least one of them.
+A2: This research simulates a real single channel SE, where the distribution of speech samples has a zero mean and a particular standard deviation. As a result, the values of weights in irredundant convolutional channels are larger than the mean absolute values (MAV) in each filter. On the other hand, the values of weights in redundant channels are smaller than its corresponding MAV. We analyzed all weights in each channels in a statistical manner, and accordingly determined the threshold values and pruned out redundant channels based on the determined threshold value.
+Additionally, since this strategy was inspired by the reference of [17], C.-T. Liu, et. al., “Computation-performance optimization of convolutional neural networks with redundant kernel removal”, we have added the reference in the paragraph:
+“We estimates the redundancy based on the sparsity [17] of each channel in a filter.”
+
